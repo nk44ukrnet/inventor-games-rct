@@ -1,0 +1,43 @@
+.footer__container {
+  padding-top: 21.2rem;
+  padding-bottom: 3.6rem;
+  position: relative;
+}
+.footer__container:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -8.9rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 91.6rem;
+  height: 62rem;
+  background-image: url(../../img/footer-worm.png);
+  transform: translate(4.5rem, 0rem);
+  pointer-events: none;
+  z-index: -1;
+}
+@media (max-width: 1400px) {
+  .footer__container:after {
+    opacity: 0.3;
+  }
+}
+.footer__container > *:not(:last-child) {
+  margin-bottom: 4.2rem;
+}
+@media (max-width: 768px) {
+  .footer__container {
+    padding-top: 5rem;
+  }
+}
+.footer__text a {
+  font-size: 3rem;
+  color: inherit;
+  text-decoration: none;
+  transform: var(--transition-all);
+}
+.footer__text:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Footer.css.map */

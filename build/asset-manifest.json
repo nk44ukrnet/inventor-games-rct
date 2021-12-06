@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2f1117f4.chunk.css",
+    "main.js": "./static/js/main.cbc5ea9b.chunk.js",
+    "main.js.map": "./static/js/main.cbc5ea9b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b175d183.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b175d183.js.map",
+    "static/js/2.e7fdc167.chunk.js": "./static/js/2.e7fdc167.chunk.js",
+    "static/js/2.e7fdc167.chunk.js.map": "./static/js/2.e7fdc167.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.2f1117f4.chunk.css.map": "./static/css/main.2f1117f4.chunk.css.map",
+    "static/js/2.e7fdc167.chunk.js.LICENSE.txt": "./static/js/2.e7fdc167.chunk.js.LICENSE.txt",
+    "static/media/3d_card1.bcd7a679.png": "./static/media/3d_card1.bcd7a679.png",
+    "static/media/3d_card2.f390876c.png": "./static/media/3d_card2.f390876c.png",
+    "static/media/3d_card3.c573baa7.png": "./static/media/3d_card3.c573baa7.png",
+    "static/media/index.css": "./static/media/ofont.ru_Stolzl.5f374512.ttf",
+    "static/media/card1.dce021fa.png": "./static/media/card1.dce021fa.png",
+    "static/media/card2.38b5e193.png": "./static/media/card2.38b5e193.png",
+    "static/media/card3.d91d9110.png": "./static/media/card3.d91d9110.png",
+    "static/media/FrontPage.css": "./static/media/right-elements.152525e7.png",
+    "static/media/Footer.css": "./static/media/footer-worm.b07c7e97.png",
+    "static/media/red_circle.6c5d55e0.png": "./static/media/red_circle.6c5d55e0.png",
+    "static/media/three_3.47c982d8.png": "./static/media/three_3.47c982d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b175d183.js",
+    "static/js/2.e7fdc167.chunk.js",
+    "static/css/main.2f1117f4.chunk.css",
+    "static/js/main.cbc5ea9b.chunk.js"
+  ]
+}

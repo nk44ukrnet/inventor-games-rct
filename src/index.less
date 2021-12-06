@@ -1,0 +1,95 @@
+@import "_variables";
+@import "_utilities";
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-black: #120a00;
+  --color-white: #fff;
+  --color-red: #ed1c24;
+  --color-yellow: #ffe90a;
+  --color-green: #00ac4f;
+  --color-blue: #0070ba;
+  --font-regular: 'Stolzl-Regular', sans-serif;
+  --font-book: 'Stolzl-book', sans-serif;
+  --font-medium: 'Stolzl-Medium', sans-serif;
+  --font-bold-m: 'StolzM-Bold', sans-serif;
+  --font-bold: 'Stolzl-Bold', sans-serif;
+  --font-bold-condensed: 'StolzM-BoldCondensed', sans-serif;
+
+  --transition-all: all .3s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  @media (max-width: @bp-md) {
+    font-size: 60%;
+  }
+  @media (max-width: @bp-sm) {
+    font-size: 58%;
+  }
+}
+
+/*FONTS*/
+@font-face {
+  font-family: 'Stolzl-Regular';
+  src: url('fonts/Stolzl-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Stolzl-Regular.otf') format('opentype'),
+  url('fonts/Stolzl-Regular.woff') format('woff'), url('fonts/Stolzl-Regular.ttf') format('truetype'), url('fonts/Stolzl-Regular.svg#Stolzl-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl-book';
+  src: url('fonts/ofont.ru_Stolzl.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl-Medium';
+  src: url('fonts/Stolzl-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/Stolzl-Medium.otf') format('opentype'),
+  url('fonts/Stolzl-Medium.woff') format('woff'), url('fonts/Stolzl-Medium.ttf') format('truetype'), url('fonts/Stolzl-Medium.svg#Stolzl-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StolzM-Bold';
+  src: url('fonts/StolzM-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/StolzM-Bold.otf') format('opentype'),
+  url('fonts/StolzM-Bold.woff') format('woff'), url('fonts/StolzM-Bold.ttf') format('truetype'), url('fonts/StolzM-Bold.svg#StolzM-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl-Bold';
+  src: url('fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Stolzl-Bold.otf') format('opentype'),
+  url('fonts/Stolzl-Bold.woff') format('woff'), url('fonts/Stolzl-Bold.ttf') format('truetype'), url('fonts/Stolzl-Bold.svg#Stolzl-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StolzM-BoldCondensed';
+  src: url('fonts/StolzM-BoldCondensed.eot?#iefix') format('embedded-opentype'), url('fonts/StolzM-BoldCondensed.otf') format('opentype'),
+  url('fonts/StolzM-BoldCondensed.woff') format('woff'), url('fonts/StolzM-BoldCondensed.ttf') format('truetype'), url('fonts/StolzM-BoldCondensed.svg#StolzM-BoldCondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*END OF FONTS*/
+
+body {
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-size: 2.4rem;
+  font-family: var(--font-regular, 'Stolzl-Regular', sans-serif);
+  line-height: 1.2;
+}
+
